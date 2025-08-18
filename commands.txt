@@ -1,0 +1,172 @@
+**Putty**
+
+**Mobaxterm** - IT is used for remote computing to manage remote systems.
+
+**sshubuntu**@[**IP_address**]- here its is used to securely connect to remote systems over a network.  Ubuntu@ specifies the username you want to log in ip address always be a public ip address
+
+This command will open the ssh connection to remote sever of the ip 
+
+If there is a primary key then you have to type 
+
+**ssh -i my-key.pem ubuntu@[ip]. HERE my-key means the location of the key and the key**
+
+**Bash-** Bash is a command shell where we can to command line scripting using scripting language in Operation system like linux.
+
+# Commands
+
+| Command | Description |
+| --- | --- |
+| uname -a | Show kernel version and system architecture |
+| hostname | Show system hostname |
+| uptime | Show system uptime and load average |
+| whoami | Show current logged-in user |
+| id | Show user ID and group info |
+| top | Real-time process and resource usage |
+| htop | Interactive process viewer (if installed) |
+| vmstat 1 | Show CPU, memory, I/O stats every second |
+| iostat -xz 1 | Show detailed disk I/O stats (requires sysstat) |
+| free -h | Show memory usage in human-readable format |
+| df -h | Show disk usage in human-readable format |
+| du -sh * | Show size of each file/folder in current directory |
+| lsblk | List block devices |
+| blkid | Show block device UUIDs and types |
+| mount | Show mounted filesystems |
+| who | Show who is logged in |
+| w | Show active logged-in users and processes |
+| users | Show all logged-in usernames |
+| groups | Show groups of current user |
+| sudo adduser | Add new user |
+| sudo passwd | Set password for user |
+| sudo userdel -r | Delete user and home directory |
+| sudo groupadd | Create new group |
+| sudo usermod -aG | Add user to group |
+| id | Show UID, GID, and groups of a user |
+| pwd | Print current directory |
+| ls -lah | List files with details and hidden files |
+| cd /path/to/dir | Change directory |
+| mkdir dir | Create a new directory |
+| rm -rf dir | Delete directory and contents |
+| touch file | Create empty file |
+| cp src dest | Copy file or directory |
+| mv src dest | Move or rename file/directory |
+| find /path -name "file" | Search for file by name |
+| grep "pattern" file | Search for text in file |
+| grep -R "pattern" /path | Search recursively in directory |
+| chmod 755 file | Change file permissions |
+| chown user:group file | Change file owner and group |
+| stat file | Show detailed file info |
+| umask | Show default permission mask |
+| ps aux | List all processes |
+| ps -ef | grep | Find process by name |
+| kill | Kill process by PID |
+| kill -9 | Force kill process |
+| pkill | Kill process by name |
+| systemctl status | Check service status |
+| systemctl restart | Restart service |
+| systemctl enable | Enable service on boot |
+| journalctl -xe | View detailed system logs |
+| ip a | Show network interfaces and IP addresses |
+| ifconfig | Show network config (deprecated) |
+| ping -c 4 host | Ping host 4 times |
+| curl -I url | Fetch HTTP headers |
+| wget url | Download file from URL |
+| netstat -tulnp | Show listening ports (deprecated) |
+| ss -tulnp | Show listening ports (modern) |
+| traceroute host | Trace route to host |
+| dig domain | DNS lookup for domain |
+| nslookup domain | DNS lookup for domain |
+| telnet host port | Test TCP connection |
+| nc -zv host port | Check if port is open |
+| scp file user@host:/path | Copy file to remote server |
+| rsync -avz src dest | Sync files between local/remote |
+| sudo apt update && sudo apt upgrade | Update package list and upgrade packages |
+| sudo apt install | Install package |
+| sudo apt remove | Remove package |
+| sudo yum install | Install package |
+| sudo yum remove | Remove package |
+| sudo yum update | Update all packages |
+| tail -f /var/log/syslog | View live system log |
+| tail -f /var/log/messages | View live messages log |
+| tail -n 100 file.log | Show last 100 lines of file |
+| less file.log | View file with scroll |
+| grep "error" /var/log/syslog | Search 'error' in system log |
+| dmesg | less | View kernel log |
+| df -h | Show disk usage |
+| du -sh /path/* | Show size of all files/folders in path |
+| lsblk | List storage devices |
+| mount /dev/sdX /mnt | Mount device to /mnt |
+| umount /mnt | Unmount /mnt |
+| fdisk -l | List disk partitions |
+| mkfs.ext4 /dev/sdX | Format disk with ext4 filesystem |
+| ssh user@host | Connect to remote server |
+| ssh -i key.pem user@host | Connect with private key |
+| ssh-copy-id user@host | Copy public key to server |
+| tar -czvf archive.tar.gz file | Create compressed tar.gz |
+| tar -xzvf archive.tar.gz | Extract tar.gz |
+| zip file.zip file | Create zip archive |
+| unzip file.zip | Extract zip archive |
+| nano file | Edit file in nano |
+| vi file | Edit file in vi |
+| vim file | Edit file in vim |
+| crontab -l | List cron jobs |
+| crontab -e | Edit cron jobs |
+| systemctl status cron | Check cron service status |
+| docker ps | List running containers |
+| docker images | List images |
+| docker exec -it  /bin/bash | Enter container shell |
+| docker logs | View container logs |
+| kubectl get pods | List pods |
+| kubectl describe pod | Show pod details |
+| kubectl logs | View pod logs |
+| kubectl exec -it  -- bash | Enter pod shell |
+| git clone | Clone repository |
+| git status | Show repo status |
+| git add . | Stage all changes |
+| git commit -m "msg" | Commit changes |
+| git push | Push to remote |
+| git pull | Pull latest changes |
+|  |  |
+
+CREDENTIALS COMMAND
+
+adduser [username] — Ubuntu
+
+useradd -m [username] — CentOS
+
+gpasswd -a [username] [group] → add a user to a group so that user gets same permission which a group has.
+
+chown :[groupname] [path of directory] /home/app
+
+chmod 770 [directory]
+
+cd /etc/ssh/sshd_config → adding name in AllowUsers line will give user permission for SSH
+
+---
+
+👤 User Management
+
+passwd [username] → Set/change a user’s password.
+
+id [username] → Show user’s UID, GID, and group memberships.
+
+groups [username] → List all groups a user belongs to.
+
+deluser [username] (Ubuntu) / userdel -r [username] (CentOS) → Remove a user (with home directory).
+
+usermod -aG [group] [username] → Add user to a secondary group.
+
+usermod -s /bin/bash [username] → Change user’s login shell.
+
+who / w → Show who is logged in.
+
+last → Show login history.
+
+---
+
+👥 Group Management
+
+groupadd [groupname] → Create a new group.
+
+groupdel [groupname] → Delete a group.
+
+getent group [groupname] → Show group info.
