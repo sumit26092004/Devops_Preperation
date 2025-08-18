@@ -170,3 +170,5 @@ groupadd [groupname] → Create a new group.
 groupdel [groupname] → Delete a group.
 
 getent group [groupname] → Show group info.
+
+usermod -L username
