@@ -1,0 +1,7 @@
+
+
+git status -- to check status of files
+git add [file name] -- add file  stage
+git commit -m "Message" -- add file to track stage which will track the file with all the changes
+git restore -- will restore the deleted file
+
