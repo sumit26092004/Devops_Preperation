@@ -4,4 +4,10 @@ git status -- to check status of files
 git add [file name] -- add file  stage
 git commit -m "Message" -- add file to track stage which will track the file with all the changes
 git restore -- will restore the deleted file
+git branch [branchname] -- make a branch
+git checkout [branchname] -- switch to that branch
+git push origin <branch_name>
+git checkout main -- switch to main
+git merge <branch_name> -- this will merge the branch files with main
+git push origin main -- Finally all the files of Branch 2 added
 
