@@ -1,0 +1,3 @@
+************************* Docker Commands ***********************
+
+docker ps -- shows all container and Container ID.
