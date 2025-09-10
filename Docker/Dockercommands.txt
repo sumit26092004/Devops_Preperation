@@ -1,0 +1,8 @@
+************************* Docker Commands ***********************
+
+docker ps -- shows all container and Container ID.
+docker start -- to start a Container
+docker stop -- to stop a container
+docker rm -- to remove a container
+docker exec -it [Container ID] bash -- to enter into a container for examples mysql.
+
