@@ -1,0 +1,1 @@
+Nginx basically used hota h load balance krne ke liye jisse hm ek server ki request procy ke through dusre server pr bhej paaye that is known as reverse proxy. It helps to balance the laod by which nginx also known as load balancer.
