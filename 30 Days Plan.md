@@ -11,7 +11,11 @@ Day 3 26 Jan 2026 -- Republic Day  --- Failed
 Complete the things Failed on 24 and 25 Jan
 
 
-Day 4 27 Jan 2026 -- 
+Day 4 27 Jan 2026 -- Failed
+
+Day 5 28 Jan 2026 -- Also Failed 
+
+Day 6 29 Jan 2026 -- Train with shubham ka course complete.
 
 Try to complete the previous days work.
 
