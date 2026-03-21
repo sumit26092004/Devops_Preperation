@@ -1,0 +1,5 @@
+docker --platform --- command used to set the platform if the docker container is not running in the environment.
+docker ps -- shows container runnning
+docker ps -a -- show all container running or not running.
+docker build -t [appname] [location of dockerfile] -- if you are in that directory you just have to give .
+
