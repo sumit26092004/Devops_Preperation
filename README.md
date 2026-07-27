@@ -1,2 +1,15 @@
-# Devops_Preperation
-Practicing Devops
+# Devops_Preperation FINAL RUN
+
+
+🐧 Day 1 – Linux & Shell Fundamentals
+
+Date: 27 July 2026
+Study Time: ~2 Hours
+Goal: Understand Linux basics, the terminal, and remote server access.
+
+🐍 Day 2 – Python Fundamentals
+
+Date: 28 July 2026
+Study Time: ~2 Hours
+Goal: Learn the basic building blocks of Python.
+
