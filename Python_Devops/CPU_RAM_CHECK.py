@@ -28,3 +28,15 @@ print (memory.total)
 print(f"{psutil.virtual_memory().total / (1024**3):.2f} GB")
 print(f"{psutil.virtual_memory().used / (1024**3):.2f} GB")
 
+def SYSTEM_CHECK():
+    cpu_usage = psutil.cpu_percent(interval=1)
+    ram_usage = psutil.virtual_memory().percent
+
+    return {
+        "cpu_usage": cpu_usage,
+        "ram_usage": ram_usage
+    }
+
+
+
+
