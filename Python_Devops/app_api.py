@@ -9,9 +9,6 @@ app = FastAPI(title="Devops Utilities API")
 def hello():
     return {"message": "Hello, World!"}
 
-
-
-
 @app.get("/systemcheck")
 def systemcheck():
     return SYSTEM_CHECK()

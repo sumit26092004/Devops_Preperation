@@ -21,3 +21,16 @@ Today I learned three important Python concepts:
 Loops
 Functions
 Python Libraries
+
+
+🐍 Day 4 - Python for DevOps
+Date: 2 August 2026
+
+Topics Covered
+Working with REST APIs
+Sending HTTP Requests
+Receiving JSON Responses
+Creating a Basic API
+Importing Python Modules
+Code Reusability
+Introduction to AWS S3 Upload (Theory)
