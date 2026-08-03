@@ -34,3 +34,13 @@ Creating a Basic API
 Importing Python Modules
 Code Reusability
 Introduction to AWS S3 Upload (Theory)
+
+# Day 5 – Networking Basics
+Date:03 August 2026
+## 🎯 Topic Covered
+- Introduction to Networking
+- Hub
+- Switch
+- MAC Address
+- Basic Cisco Switch Commands
+- Wireless Communication Basics
