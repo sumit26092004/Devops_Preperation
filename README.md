@@ -44,3 +44,9 @@ Date:03 August 2026
 - MAC Address
 - Basic Cisco Switch Commands
 - Wireless Communication Basics
+
+
+# DAY 6 - 15 -- DONE NOTHING BUSY IN OFFICE 
+
+# DAY 15 
+ - Going to learn router
