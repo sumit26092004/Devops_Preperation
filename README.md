@@ -1,52 +1,107 @@
-# Devops_Preperation FINAL RUN
+# DevOps_Preperation FINAL RUN
 
-🐧 Day 1 – Linux & Shell Fundamentals
+## 🐧 Day 1 – Linux & Shell Fundamentals
 
-Date: 27 July 2026
-Study Time: ~2 Hours
-Goal: Understand Linux basics, the terminal, and remote server access.
+**Date:** 27 July 2026
 
-🐍 Day 2 – Python Fundamentals
+**Study Time:** ~2 Hours
 
-Date: 28 July 2026
-Study Time: ~2 Hours
-Goal: Learn the basic building blocks of Python.
+**Goal:** Understand Linux basics, the terminal, and remote server access.
 
+---
 
-🐍 Day 3 – Python for DevOps
-Goal of Today's Learning
+## 🐍 Day 2 – Python Fundamentals
 
-Today I learned three important Python concepts:
+**Date:** 28 July 2026
 
-Loops
-Functions
-Python Libraries
+**Study Time:** ~2 Hours
 
+**Goal:** Learn the basic building blocks of Python.
 
-🐍 Day 4 - Python for DevOps
-Date: 2 August 2026
+---
 
-Topics Covered
-Working with REST APIs
-Sending HTTP Requests
-Receiving JSON Responses
-Creating a Basic API
-Importing Python Modules
-Code Reusability
-Introduction to AWS S3 Upload (Theory)
+## 🐍 Day 3 – Python for DevOps
 
-# Day 5 – Networking Basics
-Date:03 August 2026
-## 🎯 Topic Covered
-- Introduction to Networking
-- Hub
-- Switch
-- MAC Address
-- Basic Cisco Switch Commands
-- Wireless Communication Basics
+### Topics Covered
 
+* Loops
+* Functions
+* Python Libraries
 
-# DAY 6 - 15 -- DONE NOTHING BUSY IN OFFICE 
+---
 
-# DAY 15 
- - Going to learn router
+## 🐍 Day 4 – Python for DevOps
+
+**Date:** 2 August 2026
+
+### Topics Covered
+
+* REST APIs
+* HTTP Requests
+* JSON Responses
+* Basic API Creation
+* Python Modules
+* Code Reusability
+* AWS S3 Upload — Theory
+
+---
+
+# 🌐 Day 5 – Networking Basics
+
+**Date:** 3 August 2026
+
+### Topics Covered
+
+* Introduction to Networking
+* Hub
+* Switch
+* MAC Address
+* Basic Cisco Switch Commands
+* Wireless Communication Basics
+
+---
+
+# ⏸️ Day 6 – Day 15
+
+**Status:** No dedicated study — busy with office work.
+
+---
+
+# 🌐 Day 15 – Router
+
+### Topics Covered
+
+* Router
+* Gateway
+* Connecting Different Networks
+* Routing
+* Basic Router Commands
+
+### Commands Learned
+
+```bash
+enable
+show ip route
+```
+
+---
+
+# 🌐 Day 16 – OSI, TCP/IP & ARP
+
+**Date:** 26 August 2026
+
+### Topics Covered
+
+* OSI Model
+* TCP/IP Model
+* OSI vs TCP/IP
+* Network Layers
+* Encapsulation & Decapsulation
+* TCP & UDP
+* Ports
+* IP Address
+* MAC Address
+* ARP
+* ARP Request & Reply
+* ARP Cache
+* Default Gateway and ARP
